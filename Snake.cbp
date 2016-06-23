@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Snake" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Snake" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-Wsign-compare" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-network" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Debug">
+				<Option output="bin/Release/Snake" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DCODEBLOCKS" />
+					<Add option="-DDEBUG" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release (Linux)">
+				<Option output="bin/ReleaseLinux/Snake" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/ReleaseLinux/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-Wsign-compare" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-network" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Almacen.hpp" />
+		<Unit filename="AlmacenDeAjustes.cpp" />
+		<Unit filename="AlmacenDeAjustes.hpp" />
+		<Unit filename="AlmacenDeFuentes.hpp" />
+		<Unit filename="AlmacenDeImagenes.hpp" />
+		<Unit filename="AlmacenDeNiveles.cpp" />
+		<Unit filename="AlmacenDeNiveles.hpp" />
+		<Unit filename="AlmacenDeSonidos.hpp" />
+		<Unit filename="Comida.cpp" />
+		<Unit filename="Comida.hpp" />
+		<Unit filename="Controlador.hpp" />
+		<Unit filename="Creditos.hpp" />
+		<Unit filename="EditorDeNiveles.cpp" />
+		<Unit filename="EditorDeNiveles.hpp" />
+		<Unit filename="Jugador.cpp" />
+		<Unit filename="Jugador.hpp" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.hpp" />
+		<Unit filename="MenuEditar.cpp" />
+		<Unit filename="MenuEditar.hpp" />
+		<Unit filename="Menu_Selector.cpp" />
+		<Unit filename="Menu_Selector.hpp" />
+		<Unit filename="Modelo.cpp" />
+		<Unit filename="Modelo.hpp" />
+		<Unit filename="MotorDelJuego.cpp" />
+		<Unit filename="MotorDelJuego.hpp" />
+		<Unit filename="Nivel.cpp" />
+		<Unit filename="Nivel.hpp" />
+		<Unit filename="Opciones.cpp" />
+		<Unit filename="Opciones.hpp" />
+		<Unit filename="SelectorNiveles.cpp" />
+		<Unit filename="SelectorNiveles.hpp" />
+		<Unit filename="Transicion.cpp" />
+		<Unit filename="Transicion.hpp" />
+		<Unit filename="Transicion_Desplazamiento.cpp" />
+		<Unit filename="Transicion_Desplazamiento.hpp" />
+		<Unit filename="Transicion_Fundido.cpp" />
+		<Unit filename="Transicion_Fundido.hpp" />
+		<Unit filename="Transicion_Transparencia.cpp" />
+		<Unit filename="Transicion_Transparencia.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project output_language="Spanish" />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
